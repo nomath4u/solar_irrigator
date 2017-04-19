@@ -4,8 +4,8 @@ Using the photon read the current state of the soil. Then decide based on the we
 
 Notes: This is still a work in progress. Code may not be performing all the tasks above yet.
 
-Initial commit status:
-	Reads soil humidity and temperature and sends to adafruit.io for data aggregation. Then goes into deep sleep to save power.
+Compilation:
+	You must run the configuration generator script in order to setup the variables with your adafruit IO username and password if you are planning on using that. (Currently is used as part of development) 
 
 Libraries:
 	I had to take the SHT1x Library and put it in here because I have been using the Photon web IDE *Shame*. You should look at their repository for the most up to date code.

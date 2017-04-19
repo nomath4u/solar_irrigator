@@ -1,5 +1,6 @@
 // This #include statement was automatically added by the Particle IDE.
 #include "SHT1x.h"
+#include "irrigation.h" //Adafruit.io configuration generated file
 
 // This #include statement was automatically added by the Particle IDE.
 #include <Adafruit_MQTT.h>
@@ -8,8 +9,6 @@
 /************************* Adafruit.io Setup *********************************/ 
 #define AIO_SERVER      "io.adafruit.com" 
 #define AIO_SERVERPORT  1883                   // use 8883 for SSL 
-#define AIO_USERNAME    "nomath4u" 
-#define AIO_KEY         "e7ee2481e3854ddd83991fbfd2ca38d4" 
 #define DATA_PIN        D1
 #define CLK_PIN         D0
 /************ Global State (you don't need to change this!) ***   ***************/ 
