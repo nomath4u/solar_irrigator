@@ -20,3 +20,6 @@ Soil sensor
 
 Optional:
 Hose solenoid
+
+Software List:
+Private MQTT broker
